@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { PEER_PROBLEMS } from '../../data/mockData';
 import { PeerCodingProblem } from '../../types';
+import studentAvatar from '../../assets/images/avatar_student_1793904634702.jpg';
 import {
   Code2,
   Play,
@@ -137,7 +138,7 @@ export const PeerCodingArena: React.FC = () => {
           <div className="flex items-center gap-2.5">
             <div className="w-10 h-10 rounded-lg overflow-hidden border border-slate-200 dark:border-slate-700 shrink-0">
               <img
-                src="/src/assets/images/avatar_student_1793904634702.jpg"
+                src={studentAvatar}
                 alt="Devin Chen"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

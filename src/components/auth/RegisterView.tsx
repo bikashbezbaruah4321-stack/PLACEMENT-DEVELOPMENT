@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { RegisteredUser } from '../../types';
+import studentAvatar from '../../assets/images/avatar_student_1793904634702.jpg';
 import {
   User,
   Mail,
@@ -70,7 +71,7 @@ export const RegisterView: React.FC<RegisterViewProps> = ({
       targetRole: targetRole.trim() || 'Software Engineer Intern',
       targetCompany: 'Amazon / Intel / Google',
       placementCycle: 'Summer 2027 Internship & On-Campus Placement',
-      avatarUrl: '/src/assets/images/avatar_student_1793904634702.jpg',
+      avatarUrl: studentAvatar,
     };
 
     onRegisterSuccess(newUser);

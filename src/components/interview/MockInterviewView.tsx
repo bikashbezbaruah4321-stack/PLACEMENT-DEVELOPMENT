@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MOCK_INTERVIEW_QUESTIONS } from '../../data/mockData';
+import interviewerAvatar from '../../assets/images/avatar_interviewer_1793904634140.jpg';
+import studentAvatar from '../../assets/images/avatar_student_1793904634702.jpg';
 import {
   MockInterviewQuestion,
   InterviewEvaluation,
@@ -978,7 +980,7 @@ PlacePrep Placement Preparation Platform - ASU
           <div className="p-4 rounded-xl bg-gradient-to-r from-indigo-50/70 to-slate-50 dark:from-indigo-950/30 dark:to-slate-800/50 border border-indigo-100 dark:border-indigo-900/40 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <img
-                src="/src/assets/images/avatar_interviewer_1793904634140.jpg"
+                src={interviewerAvatar}
                 alt="Sarah Lin"
                 referrerPolicy="no-referrer"
                 className="w-12 h-12 rounded-xl object-cover border border-slate-200 dark:border-slate-700 shrink-0 shadow-xs"
@@ -1413,7 +1415,7 @@ PlacePrep Placement Preparation Platform - ASU
         {/* LEFT: AI INTERVIEWER AVATAR & VOICE SPEAKER */}
         <div className="relative rounded-xl overflow-hidden bg-slate-950 aspect-video flex items-center justify-center border border-slate-800 shadow-md group">
           <img
-            src="/src/assets/images/avatar_interviewer_1793904634140.jpg"
+            src={interviewerAvatar}
             alt="Interviewer Sarah Lin"
             referrerPolicy="no-referrer"
             className={`w-full h-full object-cover transition-all duration-300 ${
@@ -1498,7 +1500,7 @@ PlacePrep Placement Preparation Platform - ASU
             <div className="flex flex-col items-center justify-center text-center p-6">
               <div className="relative">
                 <img
-                  src="/src/assets/images/avatar_student_1793904634702.jpg"
+                  src={studentAvatar}
                   alt="Candidate Devin Chen"
                   referrerPolicy="no-referrer"
                   className={`w-24 h-24 rounded-full object-cover border-2 mb-3 shadow-md transition-all ${

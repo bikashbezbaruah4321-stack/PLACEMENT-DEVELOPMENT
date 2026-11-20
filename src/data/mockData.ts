@@ -7,6 +7,7 @@ import {
   StudyTrack,
   PlanItem,
 } from '../types';
+import studentAvatar from '../assets/images/avatar_student_1793904634702.jpg';
 
 export const CURRENT_STUDENT: StudentProfile = {
   name: 'Devin Chen',
@@ -21,7 +22,7 @@ export const CURRENT_STUDENT: StudentProfile = {
   targetRole: 'Software Development Engineer Intern',
   targetCompany: 'Amazon / Intel / Google',
   placementCycle: 'Summer 2027 Internship & On-Campus Placement',
-  avatarUrl: '/src/assets/images/avatar_student_1793904634702.jpg',
+  avatarUrl: studentAvatar,
 };
 
 

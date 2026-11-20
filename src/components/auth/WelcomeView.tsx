@@ -1,4 +1,5 @@
 import React from 'react';
+import campusImage from '../../assets/images/asu_campus_innovation_1793904634316.jpg';
 import {
   Brain,
   Code2,
@@ -106,7 +107,7 @@ export const WelcomeView: React.FC<WelcomeViewProps> = ({ onEnter, onRegister })
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-xl bg-white dark:bg-slate-900">
               <img
-                src="/src/assets/images/asu_campus_innovation_1793904634316.jpg"
+                src={campusImage}
                 alt="University Innovation Center"
                 referrerPolicy="no-referrer"
                 className="w-full h-64 object-cover"
