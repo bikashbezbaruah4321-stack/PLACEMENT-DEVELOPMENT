@@ -1,0 +1,6 @@
+{
+  "name": "ASU PlacementPrep AI",
+  "description": "AI-based placement preparation and mock interview platform for university students with adaptive tests, resume feedback, peer coding arena, and semester-aligned roadmaps.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
